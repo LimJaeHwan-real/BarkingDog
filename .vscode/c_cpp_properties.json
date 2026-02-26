@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            // 추가
+            "browse": {
+                "path": [
+                    "C:/MinGW/lib/gcc/mingw32/6.3.0/include",
+                    "C:/MinGW/lib/gcc/mingw32/6.3.0/include-fixed",
+                    "C:/MinGW/include/*",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+
+
+            "windowsSdkVersion": "10.0.26100.0",
+            "compilerPath": "C:/MinGW/bin/g++.exe",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
